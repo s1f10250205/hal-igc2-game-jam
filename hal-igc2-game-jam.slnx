@@ -84,4 +84,5 @@
   <Project Path="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj" />
   <Project Path="Unity.RenderPipelines.Core.ShaderLibrary.csproj" />
   <Project Path="Unity.Sysroot.Linux_x86_64.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
 </Solution>
