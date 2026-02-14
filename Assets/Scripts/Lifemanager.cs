@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 
 public class LifeType {
-    public lifeType(Func<int, int> action) {
+    public LifeType(Func<int, int> action) {
         this.action = action;
     }
     public string name;
@@ -13,7 +13,7 @@ public class LifeType {
 public class Lifemanager : MonoBehaviour
 {
     public Dictionary<string, LifeType> lifemap = new Dictionary<string, lifeMap>();
-    public registerLifeType(string tag, Action<int, int> action) {
+    public void registerLifeType(string tag, Action<int, int> action) {
         LifeType lifeType = new LifeType(action);
         lifeType.name = tag;
         lifemap.Add(tag, lifeType);
